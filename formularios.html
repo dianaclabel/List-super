@@ -16,6 +16,7 @@
                     <span>¿cual es tu nombre?</span>
                     <input type="text" id="name" name="name" placeholder="escribe tu nombre" autocomplete="name" required>
                 </label>
+                
                 <label for="date">
                     <span>¿cuando naciste?</span>
                     <input type="date" id="date" name="date" autocomplete="date" required>
@@ -28,6 +29,19 @@
                     <span>¿cual es tu hora de estudio?</span>
                     <input type="time" id="hora" name="hora"  required>
                 </label>
+                <!--<select name ="cursos" id="cursos">
+                    <option value="javascrip">javascript</option>
+                    <option value="html">html</option>
+                    <option value="css">css</option>
+                </select>-->
+                <input list="cursos"/>
+                <datalist id="cursos">
+                    <option value= "javascrip"></option>
+                    <option value="html"></option>
+                    <option value="css"></option>
+                </datalist>
+                <input type="submit">
+                <button type="submit">click</button>
             </form>
         </section>
     </main>
