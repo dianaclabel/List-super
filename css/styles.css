@@ -1,0 +1,6 @@
+/*h2 + p {
+    color:blue
+}*/
+h2 ~ p {
+    color: red;
+}
